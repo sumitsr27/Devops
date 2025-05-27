@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        FRONTEND_IMAGE = "sumitsr27/book-frontend:${BUILD_NUMBER}"
-        BACKEND_IMAGE  = "sumitsr27/book-backend:${BUILD_NUMBER}"
+        FRONTEND_IMAGE = "sumitsr2003/book-frontend:${BUILD_NUMBER}"
+        BACKEND_IMAGE  = "sumitsr2003/book-backend:${BUILD_NUMBER}"
         KUBECONFIG = credentials('k8s-config')  // Stored kubeconfig secret
     }
 
