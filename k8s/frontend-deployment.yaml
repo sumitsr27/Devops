@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: sumitsr27/book-frontend:REPLACE_TAG_HERE
+          image: sumitsr2003/book-frontend:REPLACE_TAG_HERE
           ports:
             - containerPort: 80
 ---
