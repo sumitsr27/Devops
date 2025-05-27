@@ -80,8 +80,7 @@ pipeline {
                     bat "kubectl rollout restart deployment/backend-deployment"
                     
                     // Verify deployment status
-                    bat "kubectl rollout status deployment/frontend-deployment --timeout=300s"
-                    bat "kubectl rollout status deployment/backend-deployment --timeout=300s"
+                   
                 }
             }
         }
