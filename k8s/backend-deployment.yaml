@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: sadullaa/book-backend:REPLACE_TAG_HERE
+          image: sumitsr27/book-backend:REPLACE_TAG_HERE
           ports:
             - containerPort: 5000
           env:
