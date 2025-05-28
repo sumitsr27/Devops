@@ -207,7 +207,7 @@ function App() {
 
   return (
     <div className="App-header" style={styles.container}>
-      <h1>📚 Books List with Reviews Sumitsrs</h1>
+      <h1>📚 Books List with Reviews Sumitsr</h1>
 
       {/* Search bar */}
       <input
